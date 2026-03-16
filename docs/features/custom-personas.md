@@ -4,7 +4,7 @@ Personas change how the AI behaves in Chat mode. Each persona has a name, icon, 
 
 ## Built-In Personas
 
-Supercharger ships with four personas:
+Argus ships with four personas:
 
 | Persona | Icon | Behavior |
 |---------|------|----------|
@@ -57,7 +57,7 @@ Use bullet points. Be thorough but concise.
 - To **delete** a custom persona, swipe left on it in the persona list.
 - Built-in personas cannot be edited or deleted.
 
-If you delete the currently active persona, Supercharger switches back to the Default persona automatically.
+If you delete the currently active persona, Argus switches back to the Default persona automatically.
 
 ## Tips
 

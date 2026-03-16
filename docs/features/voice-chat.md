@@ -1,10 +1,10 @@
 # Voice Chat
 
-Voice Chat lets you speak your questions and hear AI responses read aloud. It works in Chat mode as a hands-free way to interact with Supercharger.
+Voice Chat lets you speak your questions and hear AI responses read aloud. It works in Chat mode as a hands-free way to interact with Argus.
 
 ## Speaking a Message
 
-Tap the **microphone button** next to the text field in Chat mode. Supercharger uses iOS Speech Recognition to transcribe your voice into text. When you stop speaking, the transcribed message is sent automatically.
+Tap the **microphone button** next to the text field in Chat mode. Argus uses iOS Speech Recognition to transcribe your voice into text. When you stop speaking, the transcribed message is sent automatically.
 
 Requirements:
 - Microphone permission (prompted on first use)
@@ -35,7 +35,7 @@ If the AI is currently speaking, tapping the button on a different message stops
 
 ## Choosing a Voice
 
-You can pick which voice Supercharger uses for text-to-speech:
+You can pick which voice Argus uses for text-to-speech:
 
 1. Open **Settings**.
 2. Tap **Voice**.

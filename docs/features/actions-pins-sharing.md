@@ -1,6 +1,6 @@
 # Quick Actions, Pins, and Sharing
 
-Supercharger adds tappable action buttons to AI responses and search results, lets you pin important exchanges for later, and supports sharing conversations.
+Argus adds tappable action buttons to AI responses and search results, lets you pin important exchanges for later, and supports sharing conversations.
 
 ## Quick Actions on AI Bubbles
 
@@ -77,7 +77,7 @@ Share a chat exchange or full conversation as text or a styled image.
 ### What the Shared Image Looks Like
 
 The image export renders a clean card with:
-- "Supercharger Chat" header with the date
+- "Argus Chat" header with the date
 - Your messages labeled "You"
 - AI responses labeled with the persona name
 - Source citations when results were referenced

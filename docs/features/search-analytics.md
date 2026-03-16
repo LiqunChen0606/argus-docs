@@ -1,10 +1,10 @@
 # Search Analytics
 
-Search Analytics tracks how you use Supercharger and surfaces insights about your search patterns. All analytics data stays on-device.
+Search Analytics tracks how you use Argus and surfaces insights about your search patterns. All analytics data stays on-device.
 
 ## What Is Tracked
 
-Supercharger logs two types of events:
+Argus logs two types of events:
 
 - **Searches** -- Every query you run, with the number of results returned.
 - **Result taps** -- When you tap a search result, the source type (Notes, Calendar, Mail, etc.) is recorded.

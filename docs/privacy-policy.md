@@ -4,11 +4,11 @@
 
 ## Overview
 
-Supercharger is an AI-powered personal knowledge search engine that runs on your iPhone. Your privacy is our top priority — all data indexing and search happens entirely on your device.
+Argus is an AI-powered personal knowledge search engine that runs on your iPhone. Your privacy is our top priority — all data indexing and search happens entirely on your device.
 
 ## Data Collection
 
-**We do not collect, store, or transmit any personal data.** Supercharger has no backend servers, no analytics tracking, and no user accounts.
+**We do not collect, store, or transmit any personal data.** Argus has no backend servers, no analytics tracking, and no user accounts.
 
 ### What stays on your device
 
@@ -37,7 +37,7 @@ When using Apple Foundation Models (available on supported devices), all AI proc
 
 ## Permissions
 
-Supercharger requests access to the following, all optional:
+Argus requests access to the following, all optional:
 
 | Permission | Purpose |
 |-----------|---------|
@@ -48,11 +48,11 @@ Supercharger requests access to the following, all optional:
 | Microphone | Voice input for search and chat |
 | Speech Recognition | Transcribe voice input and voice memos |
 
-You can grant or revoke any permission at any time in iOS Settings. Supercharger works with whatever permissions you choose to grant — no permission is mandatory.
+You can grant or revoke any permission at any time in iOS Settings. Argus works with whatever permissions you choose to grant — no permission is mandatory.
 
 ## Third-Party Services
 
-Supercharger does not integrate any third-party analytics, advertising, or tracking SDKs. The only third-party services are the optional LLM providers you configure yourself:
+Argus does not integrate any third-party analytics, advertising, or tracking SDKs. The only third-party services are the optional LLM providers you configure yourself:
 
 - **Anthropic (Claude)** — [Privacy Policy](https://www.anthropic.com/privacy)
 - **OpenAI** — [Privacy Policy](https://openai.com/privacy)
@@ -71,7 +71,7 @@ Search analytics older than 90 days are automatically pruned.
 
 ## Children's Privacy
 
-Supercharger does not knowingly collect data from children under 13. The app indexes data already present on the user's device.
+Argus does not knowingly collect data from children under 13. The app indexes data already present on the user's device.
 
 ## Changes to This Policy
 
@@ -80,4 +80,4 @@ We may update this privacy policy from time to time. Changes will be posted to t
 ## Contact
 
 For privacy questions or concerns:
-- GitHub: [https://github.com/LiqunChen0606/supercharger-docs/issues](https://github.com/LiqunChen0606/supercharger-docs/issues)
+- GitHub: [https://github.com/LiqunChen0606/argus-docs/issues](https://github.com/LiqunChen0606/argus-docs/issues)

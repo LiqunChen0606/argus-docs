@@ -1,10 +1,10 @@
 # Search Modes
 
-Supercharger offers three search modes in a single tab. Switch between them using the icons at the top of the search screen.
+Argus offers three search modes in a single tab. Switch between them using the icons at the top of the search screen.
 
 ## Plain Mode
 
-Plain mode is the default. Type a natural language query and Supercharger figures out what you mean.
+Plain mode is the default. Type a natural language query and Argus figures out what you mean.
 
 **How it works:**
 
@@ -23,7 +23,7 @@ Plain mode is the default. Type a natural language query and Supercharger figure
 | `define ephemeral` | Dictionary lookup with definition |
 | `translate hello to Spanish` | Translation result |
 
-**Intent detection:** If you type something like "open calendar" or "call Mom," Supercharger detects the action intent and offers to execute it directly instead of searching.
+**Intent detection:** If you type something like "open calendar" or "call Mom," Argus detects the action intent and offers to execute it directly instead of searching.
 
 **Visual filters:** Below the search bar, filter chips let you narrow results by source, date, tags, or content type without retyping your query. See [Visual Filters](visual-filters.md).
 
@@ -59,7 +59,7 @@ Tap the chat bubble icon to enter Chat mode. This is a conversational interface 
 **What makes it different from Plain search:**
 
 - **Conversation memory** -- The AI remembers what you discussed earlier in the session.
-- **Smart RAG** -- When your question relates to personal data, Supercharger automatically retrieves relevant items and includes them as context.
+- **Smart RAG** -- When your question relates to personal data, Argus automatically retrieves relevant items and includes them as context.
 - **Inline result cards** -- Search results appear as tappable cards within the conversation.
 - **Custom personas** -- Switch between AI personalities (Default, Work, Journal, Research) or create your own.
 

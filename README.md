@@ -1,8 +1,8 @@
-# Supercharger
+# Argus
 
 **AI-powered personal knowledge search engine for iOS.**
 
-Supercharger reimagines Spotlight with semantic understanding, a knowledge graph, multi-LLM support, and a custom keyboard extension. It indexes your personal data — notes, calendar, emails, photos, messages, reminders, contacts, bookmarks, and voice memos — then lets you search across all of it with natural language, CLI-style commands, or a conversational AI chat.
+Argus reimagines Spotlight with semantic understanding, a knowledge graph, multi-LLM support, and a custom keyboard extension. It indexes your personal data — notes, calendar, emails, photos, messages, reminders, contacts, bookmarks, and voice memos — then lets you search across all of it with natural language, CLI-style commands, or a conversational AI chat.
 
 ## Three Modes, One Search Tab
 
@@ -55,11 +55,11 @@ Supercharger reimagines Spotlight with semantic understanding, a knowledge graph
 
 ## Privacy
 
-Supercharger processes all data on-device. Your personal data never leaves your phone unless you explicitly use a cloud LLM provider (Claude, OpenAI, Gemini) — in which case only the specific query context is sent to the provider's API. See our [Privacy Policy](docs/privacy-policy.md) for details.
+Argus processes all data on-device. Your personal data never leaves your phone unless you explicitly use a cloud LLM provider (Claude, OpenAI, Gemini) — in which case only the specific query context is sent to the provider's API. See our [Privacy Policy](docs/privacy-policy.md) for details.
 
 ## Support
 
-For issues, feature requests, or feedback, please [open an issue](https://github.com/LiqunChen0606/supercharger-docs/issues).
+For issues, feature requests, or feedback, please [open an issue](https://github.com/LiqunChen0606/argus-docs/issues).
 
 ## License
 

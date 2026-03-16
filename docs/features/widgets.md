@@ -1,6 +1,6 @@
 # Widgets
 
-Supercharger provides four home screen widgets that give you quick access to information without opening the app.
+Argus provides four home screen widgets that give you quick access to information without opening the app.
 
 ## Available Widgets
 
@@ -12,13 +12,13 @@ Shows a memory from this date in a previous year. Displays the LLM-generated nar
 
 ### Search Stats
 
-A quick glance at your search activity. Shows your total search count and this week's count. Useful for tracking how actively you use Supercharger.
+A quick glance at your search activity. Shows your total search count and this week's count. Useful for tracking how actively you use Argus.
 
 **Best size:** Small
 
 ### Quick Search
 
-A tap target that opens Supercharger directly to the search screen. On iOS 18+, this is also available as a Control Center widget for even faster access.
+A tap target that opens Argus directly to the search screen. On iOS 18+, this is also available as a Control Center widget for even faster access.
 
 **Best size:** Small
 
@@ -32,7 +32,7 @@ A daily summary widget powered by proactive suggestions. Shows upcoming events, 
 
 1. Long-press on your home screen until the icons jiggle.
 2. Tap the **+** button in the top-left corner.
-3. Search for "Supercharger" in the widget gallery.
+3. Search for "Argus" in the widget gallery.
 4. Browse the available widgets and sizes.
 5. Tap **Add Widget** and position it on your home screen.
 6. Tap **Done** to save.
@@ -40,7 +40,7 @@ A daily summary widget powered by proactive suggestions. Shows upcoming events, 
 Alternatively, on iOS 18+:
 1. Long-press on your home screen.
 2. Tap **Customize** at the bottom.
-3. Tap **Add Widget** and search for Supercharger.
+3. Tap **Add Widget** and search for Argus.
 
 ## Widget Settings
 
@@ -62,7 +62,7 @@ Widget data updates happen:
 ## Tips
 
 - The On This Day widget is most engaging when you have several years of data indexed. Enable Photos and Calendar for the best results.
-- Stack multiple Supercharger widgets in a Smart Stack to cycle through them automatically.
+- Stack multiple Argus widgets in a Smart Stack to cycle through them automatically.
 - Quick Search widget pairs well with the iOS 18 Control Center widget for app-free access.
 - If a widget shows stale data, open the main app briefly to trigger a refresh.
 

@@ -1,6 +1,6 @@
 # Chat Mode
 
-Chat mode turns Supercharger into a conversational AI assistant that knows your personal data. Tap the chat bubble icon on the Search tab to enter it.
+Chat mode turns Argus into a conversational AI assistant that knows your personal data. Tap the chat bubble icon on the Search tab to enter it.
 
 ## Multi-Turn Conversation
 
@@ -19,7 +19,7 @@ The AI sees your full conversation history when generating each response, so it 
 
 ## Smart RAG Detection
 
-When your question touches personal data, Supercharger automatically runs a search behind the scenes and feeds the relevant results to the AI as context. This happens transparently -- you just ask a question and get a grounded answer.
+When your question touches personal data, Argus automatically runs a search behind the scenes and feeds the relevant results to the AI as context. This happens transparently -- you just ask a question and get a grounded answer.
 
 If no personal data is relevant, the AI answers from general knowledge instead.
 

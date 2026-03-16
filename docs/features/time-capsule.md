@@ -12,7 +12,7 @@ When you open the Search tab, an **On This Day** card may appear at the top of t
 
 Tap the card to open the full Time Capsule explorer.
 
-The card only appears when Supercharger finds data from a matching date in a previous year.
+The card only appears when Argus finds data from a matching date in a previous year.
 
 ## Full Date Explorer
 
@@ -31,7 +31,7 @@ Photos are prioritized and appear first within each year group.
 
 ## LLM Narratives
 
-If you have an LLM provider configured, Supercharger generates a short, warm narrative for each year group. For example:
+If you have an LLM provider configured, Argus generates a short, warm narrative for each year group. For example:
 
 > "A busy Tuesday -- you had a team lunch at the Italian place downtown and spent the evening editing vacation photos from Yosemite."
 

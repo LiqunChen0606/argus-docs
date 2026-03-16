@@ -1,20 +1,20 @@
 # Keyboard Extension
 
-Supercharger includes a custom keyboard that lets you search your personal data and expand text snippets from any app on your device.
+Argus includes a custom keyboard that lets you search your personal data and expand text snippets from any app on your device.
 
 ## Enabling the Keyboard
 
 1. Open **iOS Settings** on your device.
 2. Go to **General > Keyboard > Keyboards**.
 3. Tap **Add New Keyboard**.
-4. Find and select **Supercharger**.
-5. Tap **Supercharger** again and enable **Allow Full Access** (required for the keyboard to communicate with your indexed data).
+4. Find and select **Argus**.
+5. Tap **Argus** again and enable **Allow Full Access** (required for the keyboard to communicate with your indexed data).
 
-After enabling, switch to the Supercharger keyboard by tapping the globe icon on any keyboard.
+After enabling, switch to the Argus keyboard by tapping the globe icon on any keyboard.
 
 ## Searching from Any App
 
-With the Supercharger keyboard active:
+With the Argus keyboard active:
 
 1. Tap the **search field** at the top of the keyboard.
 2. Type your query.
@@ -29,7 +29,7 @@ Snippets are short text shortcuts that expand into longer text. Define them in t
 
 ### Creating Snippets
 
-1. Open Supercharger.
+1. Open Argus.
 2. Go to **Settings > Snippets** (or the Actions tab > Snippets).
 3. Tap **Add Snippet**.
 4. Enter a **trigger** (the shortcut you type, e.g., `;;email`) and the **expansion** (the full text it expands to, e.g., your email address).
@@ -37,7 +37,7 @@ Snippets are short text shortcuts that expand into longer text. Define them in t
 
 ### Using Snippets
 
-In any app with the Supercharger keyboard active:
+In any app with the Argus keyboard active:
 
 1. Type the trigger text (e.g., `;;email`).
 2. The snippet expansion appears as a suggestion above the keyboard.

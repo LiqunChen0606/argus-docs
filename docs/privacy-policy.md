@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: March 15, 2026**
+**Last updated: March 18, 2026**
 
 ## Overview
 
@@ -25,11 +25,19 @@ All of the following is processed and stored exclusively on your iPhone:
 
 Data is only sent off-device in these specific cases, all initiated by you:
 
-1. **Cloud LLM Providers** — If you configure an API key for Claude (Anthropic), OpenAI, or Google Gemini, your search queries and relevant context snippets are sent to that provider's API to generate AI responses. Only the minimum context needed for the query is sent — never your full database.
+1. **Cloud LLM Providers** — If you configure an API key for Claude (Anthropic), OpenAI, or Google Gemini, the following data may be sent to that provider's API to generate AI responses:
+   - Search queries and conversation messages
+   - Relevant context snippets from your indexed content (notes, calendar events, contacts, reminders) needed to answer your query
+   - Photo metadata and descriptions when using AI photo features
+   - Text content for auto-tagging and summarization features
 
-2. **Sharing** — When you use the Share feature to export a chat conversation via Messages, Email, AirDrop, or other apps.
+   Only the minimum context needed for each query is sent — never your full database. **Before any cloud provider can be activated, you must review and accept an in-app AI Data Usage Disclosure that explains exactly what data is sent and where.**
 
-3. **Apple Services** — Standard iOS services (iCloud backup if enabled, Spotlight indexing if enabled) may process data according to Apple's privacy policy.
+2. **AI Image Generation/Editing** — If you use AI image generation or editing features in Photo Studio, your text prompts (and source images for editing) are sent to OpenAI's image API. This requires an OpenAI API key you provide.
+
+3. **Sharing** — When you use the Share feature to export a chat conversation via Messages, Email, AirDrop, or other apps.
+
+4. **Apple Services** — Standard iOS services (iCloud backup if enabled, Spotlight indexing if enabled) may process data according to Apple's privacy policy.
 
 ### On-device AI
 
@@ -58,7 +66,16 @@ Argus does not integrate any third-party analytics, advertising, or tracking SDK
 - **OpenAI** — [Privacy Policy](https://openai.com/privacy)
 - **Google (Gemini)** — [Privacy Policy](https://policies.google.com/privacy)
 
-Your API keys are stored locally on your device and are never shared with us.
+Your API keys are stored in the iOS Keychain on your device and are never shared with us. Keys are transmitted only to their respective provider's API for authentication via HTTPS.
+
+## User Consent
+
+Argus obtains your explicit consent before sending any data to cloud AI providers:
+
+1. **Provider Selection** — You must manually select a cloud provider and enter your own API key in Settings. No cloud features are active by default.
+2. **Privacy Disclosure** — The first time you select a cloud provider, a mandatory AI Data Usage Disclosure sheet is presented. It explains what data will be sent, to whom, and what stays on-device. You must tap "I Understand" to proceed.
+3. **Ongoing Transparency** — Settings > Data & Privacy provides a full breakdown of on-device vs. cloud features at any time, with links to each provider's privacy policy.
+4. **Easy Opt-Out** — You can switch to Apple Intelligence (fully on-device) or remove your API key at any time to stop all cloud data transmission.
 
 ## Data Retention
 

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: March 18, 2026**
+**Last updated: March 22, 2026**
 
 ## Overview
 
@@ -8,7 +8,7 @@ Argus is an AI-powered personal knowledge search engine that runs on your iPhone
 
 ## Data Collection
 
-**We do not collect, store, or transmit any personal data.** Argus has no backend servers, no analytics tracking, and no user accounts.
+**We do not collect, store, or transmit any personal data to our own servers.** Argus has no backend servers, no analytics tracking, and no user accounts. Your contacts, photos, calendar, notes, and all other data are never uploaded to any server we operate.
 
 ### What stays on your device
 
@@ -50,7 +50,7 @@ Argus requests access to the following, all optional:
 | Permission | Purpose |
 |-----------|---------|
 | Photos | Index your photo library for search (captions, OCR, faces) |
-| Contacts | Index contacts for search and smart actions |
+| Contacts | Index contacts on-device for search and smart actions. **Contacts are never uploaded to any server.** If a cloud AI provider is active, a contact name may appear in AI query context only when directly relevant to your search query. |
 | Calendar | Index events for search and Time Capsule memories |
 | Reminders | Index reminders for search |
 | Microphone | Voice input for search and chat |
@@ -68,14 +68,26 @@ Argus does not integrate any third-party analytics, advertising, or tracking SDK
 
 Your API keys are stored in the iOS Keychain on your device and are never shared with us. Keys are transmitted only to their respective provider's API for authentication via HTTPS.
 
+## Contacts Data
+
+Argus accesses your Contacts with your permission to build a searchable on-device index. **Your contacts are never uploaded to any server we operate.** Contact data is processed and stored entirely on your iPhone.
+
+When a cloud AI provider (Claude, OpenAI, or Gemini) is active and you ask a question that involves a contact (e.g., "What's Sarah's email?"), a relevant contact name or detail may be included as context in the AI query to that provider's API. This only happens:
+- When you have explicitly enabled a cloud provider and accepted the AI Data Usage Disclosure
+- When the contact information is directly relevant to your search query
+- The full contacts database is never sent — only the minimum context needed for your specific query
+
+To prevent any contact data from being sent to a cloud provider, switch to Apple Intelligence (on-device) in Settings > AI Providers.
+
 ## User Consent
 
 Argus obtains your explicit consent before sending any data to cloud AI providers:
 
 1. **Provider Selection** — You must manually select a cloud provider and enter your own API key in Settings. No cloud features are active by default.
-2. **Privacy Disclosure** — The first time you select a cloud provider, a mandatory AI Data Usage Disclosure sheet is presented. It explains what data will be sent, to whom, and what stays on-device. You must tap "I Understand" to proceed.
-3. **Ongoing Transparency** — Settings > Data & Privacy provides a full breakdown of on-device vs. cloud features at any time, with links to each provider's privacy policy.
-4. **Easy Opt-Out** — You can switch to Apple Intelligence (fully on-device) or remove your API key at any time to stop all cloud data transmission.
+2. **Privacy Disclosure** — A mandatory AI Data Usage Disclosure sheet is presented before any cloud provider can be activated. It explains what data will be sent, to whom, and what stays on-device. You must tap "I Understand, Enable [Provider]" to proceed. If the app detects a cloud provider is active without prior consent (e.g., after an update), the disclosure is shown on app launch.
+3. **In-App Attribution** — Every AI-generated response displays which provider processed it (e.g., "via Claude (Anthropic)"). In chat mode, a persistent banner states "Messages are sent to [Provider] to generate responses."
+4. **Ongoing Transparency** — Settings > Data & Privacy provides a full breakdown of on-device vs. cloud features at any time, with links to each provider's privacy policy.
+5. **Easy Opt-Out** — You can switch to Apple Intelligence (fully on-device) or remove your API key at any time to stop all cloud data transmission.
 
 ## Data Retention
 

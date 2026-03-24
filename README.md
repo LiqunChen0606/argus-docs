@@ -1,6 +1,6 @@
 # Argus
 
-**AI-powered personal knowledge search engine for iOS.**
+**AI-powered personal knowledge search engine for iOS.** Now on the App Store.
 
 Argus reimagines Spotlight with semantic understanding, a knowledge graph, multi-LLM support, and a custom keyboard extension. It indexes your personal data — notes, calendar, emails, photos, messages, reminders, contacts, bookmarks, and voice memos — then lets you search across all of it with natural language, CLI-style commands, or a conversational AI chat.
 
@@ -55,7 +55,7 @@ Argus reimagines Spotlight with semantic understanding, a knowledge graph, multi
 
 ## Privacy
 
-Argus processes all data on-device. Your personal data never leaves your phone unless you explicitly use a cloud LLM provider (Claude, OpenAI, Gemini) — in which case only the specific query context is sent to the provider's API. See our [Privacy Policy](docs/privacy-policy.md) for details.
+Argus processes all data on-device by default. Your personal data never leaves your device unless you explicitly enable a cloud AI provider (Claude, OpenAI, or Gemini) by providing your own API key. In that case, only the specific query context is sent to the provider's API — never your full database. A mandatory AI privacy disclosure is shown during onboarding, and explicit consent is required before any cloud provider can be activated. See our [Privacy Policy](docs/privacy-policy.md) for details.
 
 ## Support
 

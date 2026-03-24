@@ -2,7 +2,10 @@
 
 > Argus is an AI-powered personal knowledge search engine (Claude, OpenAI, Gemini, Apple Intelligence) that indexes your iPhone's data and lets you search with natural language, CLI commands, or conversational AI chat.
 
-[![Download App Store](https://img.shields.io/badge/Download-App%20Store-blue?logo=apple&style=for-the-badge)](https://apps.apple.com/us/app/argus-ai-search/id6760634171) ![Platform iOS 17+](https://img.shields.io/badge/Platform-iOS%2017%2B-lightgrey?style=for-the-badge) ![AI Claude | OpenAI | Gemini | Apple Intelligence](https://img.shields.io/badge/AI-Claude%20%7C%20OpenAI%20%7C%20Gemini%20%7C%20Apple%20Intelligence-green?style=for-the-badge) ![On-Device First](https://img.shields.io/badge/Privacy-On--Device%20First-purple?style=for-the-badge)
+[![Download on the App Store](https://img.shields.io/badge/Download-App%20Store-blue?logo=apple&logoColor=white)](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
+[![Platform](https://img.shields.io/badge/Platform-iOS%2017%2B-blue)](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
+[![AI](https://img.shields.io/badge/AI-Claude%20%7C%20OpenAI%20%7C%20Gemini%20%7C%20Apple%20Intelligence-purple)](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
+[![Privacy](https://img.shields.io/badge/Privacy-On--Device%20First-green)](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
 
 ## Three Modes, One Search Tab
 

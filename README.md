@@ -1,6 +1,6 @@
 # Argus
 
-**AI-powered personal knowledge search engine for iOS.** Now on the App Store.
+**AI-powered personal knowledge search engine for iOS.** [Now on the App Store.](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
 
 Argus reimagines Spotlight with semantic understanding, a knowledge graph, multi-LLM support, and a custom keyboard extension. It indexes your personal data — notes, calendar, emails, photos, messages, reminders, contacts, bookmarks, and voice memos — then lets you search across all of it with natural language, CLI-style commands, or a conversational AI chat.
 

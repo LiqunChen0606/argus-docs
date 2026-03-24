@@ -1,8 +1,8 @@
-# Argus
+# Argus — Guides & Tutorials
 
-**AI-powered personal knowledge search engine for iOS.** [Now on the App Store.](https://apps.apple.com/us/app/argus-ai-search/id6760634171)
+> Argus is an AI-powered personal knowledge search engine (Claude, OpenAI, Gemini, Apple Intelligence) that indexes your iPhone's data and lets you search with natural language, CLI commands, or conversational AI chat.
 
-Argus reimagines Spotlight with semantic understanding, a knowledge graph, multi-LLM support, and a custom keyboard extension. It indexes your personal data — notes, calendar, emails, photos, messages, reminders, contacts, bookmarks, and voice memos — then lets you search across all of it with natural language, CLI-style commands, or a conversational AI chat.
+[![Download App Store](https://img.shields.io/badge/Download-App%20Store-blue?logo=apple&style=for-the-badge)](https://apps.apple.com/us/app/argus-ai-search/id6760634171) ![Platform iOS 17+](https://img.shields.io/badge/Platform-iOS%2017%2B-lightgrey?style=for-the-badge) ![AI Claude | OpenAI | Gemini](https://img.shields.io/badge/AI-Claude%20%7C%20OpenAI%20%7C%20Gemini-green?style=for-the-badge) ![On-Device First](https://img.shields.io/badge/Privacy-On--Device%20First-purple?style=for-the-badge)
 
 ## Three Modes, One Search Tab
 

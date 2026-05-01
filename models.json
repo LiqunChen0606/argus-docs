@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-30",
+  "providers": {
+    "claude": {
+      "displayName": "Claude (Anthropic)",
+      "models": [
+        {"id": "claude-opus-4-7", "name": "Opus 4.7", "description": "Most capable. Best for deep reasoning.", "isDefault": false, "contextWindow": 200000},
+        {"id": "claude-sonnet-4-6", "name": "Sonnet 4.6", "description": "Fast & balanced. Default.", "isDefault": true, "contextWindow": 200000},
+        {"id": "claude-haiku-4-5-20251001", "name": "Haiku 4.5", "description": "Fastest, lowest cost.", "isDefault": false, "contextWindow": 200000}
+      ]
+    },
+    "openai": {
+      "displayName": "OpenAI",
+      "models": [
+        {"id": "gpt-5", "name": "GPT-5", "description": "Most capable.", "isDefault": false, "contextWindow": 256000},
+        {"id": "gpt-4o", "name": "GPT-4o", "description": "Fast multimodal. Default.", "isDefault": true, "contextWindow": 128000},
+        {"id": "gpt-4o-mini", "name": "GPT-4o mini", "description": "Lightweight, fast.", "isDefault": false, "contextWindow": 128000},
+        {"id": "o4-mini", "name": "o4-mini", "description": "Fast reasoning.", "isDefault": false, "contextWindow": 128000}
+      ]
+    },
+    "gemini": {
+      "displayName": "Google Gemini",
+      "models": [
+        {"id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro", "description": "Most capable.", "isDefault": false, "contextWindow": 1000000},
+        {"id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash", "description": "Fast & efficient. Default.", "isDefault": true, "contextWindow": 1000000},
+        {"id": "gemini-2.0-flash", "name": "Gemini 2.0 Flash", "description": "Stable, cost-effective.", "isDefault": false, "contextWindow": 1000000}
+      ]
+    },
+    "openai_compatible": {
+      "displayName": "Custom (OpenAI-compatible)",
+      "models": []
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: March 22, 2026**
+**Last updated: May 1, 2026**
 
 ## Overview
 
@@ -25,13 +25,13 @@ All of the following is processed and stored exclusively on your iPhone:
 
 Data is only sent off-device in these specific cases, all initiated by you:
 
-1. **Cloud LLM Providers** — If you configure an API key for Claude (Anthropic), OpenAI, or Google Gemini, the following data may be sent to that provider's API to generate AI responses:
+1. **Cloud LLM Providers** — If you configure an API key for Claude (Anthropic), OpenAI, Google Gemini, or any OpenAI-compatible service you connect (e.g., Groq, Mistral, DeepSeek, OpenRouter, xAI Grok, Together AI, Ollama, LM Studio, or other compatible APIs), the following data may be sent to that provider's API to generate AI responses:
    - Search queries and conversation messages
    - Relevant context snippets from your indexed content (notes, calendar events, contacts, reminders) needed to answer your query
    - Photo metadata and descriptions when using AI photo features
    - Text content for auto-tagging and summarization features
 
-   Only the minimum context needed for each query is sent — never your full database. **Before any cloud provider can be activated, you must review and accept an in-app AI Data Usage Disclosure that explains exactly what data is sent and where.**
+   Only the minimum context needed for each query is sent — never your full database. **Before any cloud provider can be activated, you must review and accept an in-app AI Data Usage Disclosure that explains exactly what data is sent and where.** When you configure an OpenAI-compatible custom provider, you choose the destination by entering a base URL — Argus sends data only to the URL you configure.
 
 2. **AI Image Generation/Editing** — If you use AI image generation or editing features in Photo Studio, your text prompts (and source images for editing) are sent to OpenAI's image API. This requires an OpenAI API key you provide.
 
@@ -65,6 +65,15 @@ Argus does not integrate any third-party analytics, advertising, or tracking SDK
 - **Anthropic (Claude)** — [Privacy Policy](https://www.anthropic.com/privacy)
 - **OpenAI** — [Privacy Policy](https://openai.com/privacy)
 - **Google (Gemini)** — [Privacy Policy](https://policies.google.com/privacy)
+- **Custom (OpenAI-compatible)** — Argus supports any OpenAI-compatible API endpoint that you configure with a base URL and API key. Built-in presets are provided for:
+  - Groq — [Privacy Policy](https://groq.com/privacy-policy/)
+  - Mistral — [Privacy Policy](https://mistral.ai/terms/#privacy-policy)
+  - DeepSeek — [Privacy Policy](https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html)
+  - OpenRouter — [Privacy Policy](https://openrouter.ai/privacy)
+  - xAI (Grok) — [Privacy Policy](https://x.ai/legal/privacy-policy)
+  - Together AI — [Privacy Policy](https://www.together.ai/privacy)
+  - Ollama (local network) — runs on your own machine; no third-party transmission
+  - You can also configure any other OpenAI-compatible endpoint of your choice. **You are responsible for reviewing the privacy policy of any custom endpoint you connect.**
 
 Your API keys are stored in the iOS Keychain on your device and are never shared with us. Keys are transmitted only to their respective provider's API for authentication via HTTPS.
 

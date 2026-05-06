@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 2026-05-04**
+**Last updated: 2026-05-06**
 
 ## Overview
 
@@ -59,7 +59,7 @@ Argus requests access to the following, all optional:
 | Reminders | Index reminders for search |
 | Microphone | Voice input for search and chat |
 | Speech Recognition | Transcribe voice input and voice memos |
-| Health | Index workouts, sleep, and activity from Apple Health on-device only. Never uploaded. |
+| Health | Index workouts, sleep, activity, heart rate variability, VO2 max, walking heart rate, activity rings, and (optional) outdoor workout GPS routes from Apple Health on-device only. Never uploaded. See [Health Data](#health-data) for details. |
 | Location (Always) | Index "where was I" via iOS-computed visits + photo geotags. On-device only; reverse geocoding via Apple's CLGeocoder. |
 
 You can grant or revoke any permission at any time in iOS Settings. Argus works with whatever permissions you choose to grant — no permission is mandatory.
@@ -96,6 +96,28 @@ Argus does not integrate any third-party analytics, advertising, or tracking SDK
 - **ElevenLabs** — [Privacy Policy](https://elevenlabs.io/privacy)
 
 Your API keys are stored in the iOS Keychain on your device and are never shared with us. Keys are transmitted only to their respective provider's API for authentication via HTTPS.
+
+## Health Data
+
+Argus accesses Apple Health with your permission to build a searchable on-device index of your fitness, sleep, and recovery data. **Your health data is never uploaded to any server we operate, and never transmitted to any cloud AI provider.**
+
+### What is indexed on-device
+
+- Workouts (type, duration, distance, calories, source app)
+- Sleep stages and totals
+- Step counts and active energy
+- Heart rate variability, VO2 max, walking heart rate — daily aggregates indexed on-device. Never transmitted to any third-party service.
+- Activity rings (Move/Exercise/Stand goals + completion) — daily summaries indexed on-device.
+
+### GPS workout routes
+
+GPS routes are an **opt-in** feature. They are off by default.
+
+- Opt-in via **Settings → Sources → Health → Include route data (GPS)**
+- Stored on-device only in a `workout_route` SQLite table inside Argus's sandbox
+- Reverse geocoding uses Apple's CLGeocoder service to translate coordinates to place names; no third-party location service is contacted
+- Routes are **NEVER transmitted to cloud AI providers** unless you explicitly reference a specific route in a query, in which case only the route's place names (not raw coordinates) may be included as context
+- Disabling the toggle stops new route data from being indexed; existing route data can be cleared by deleting the app
 
 ## Contacts Data
 

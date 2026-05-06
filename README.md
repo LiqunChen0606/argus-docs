@@ -29,6 +29,12 @@
 | Photo Studio | AI generation (Apple Image Playground on-device, OpenAI DALL-E 3 / gpt-image-1, fal.ai Flux), editing, background removal, OCR, manga photo stories, PDF export |
 | Morning Brief | Daily push notification with today's events, memories, reminders, trending topics; optional spoken digest |
 | Health Index | Workouts, sleep, activity, resting HR — all on-device, feeds Mood Journal correlation |
+| Workout Routes & Zones | Map polylines + heart-rate-zone breakdown for every outdoor workout |
+| Heart Health Trends | HRV, VO2 max, walking HR daily — with 30-day rolling baselines |
+| Today's Health Card | Activity rings on the Search home + 7-day detail view |
+| Health-Aware Brief | Optional Morning Brief section with rings, sleep, HRV vs baseline |
+| `/health` commands | `/health today`, `/workouts week`, `/sleep avg`, `/heart trend`, `/rings streak`, `/route last` |
+| Numeric search | "runs longer than 5km", "nights I slept under 6 hours", "above 100 bpm" |
 | Location Memories | "Where was I" search via passive CLVisit tracking + photo geotag → place entities |
 | Watch Companion | Apple Watch app + complication showing today's Morning Brief |
 | Per-Modality AI | Pick text, vision, image-generation, and TTS providers independently |

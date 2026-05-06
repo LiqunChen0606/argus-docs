@@ -25,8 +25,13 @@
 | Hot-Fixable Models | Model list updates from a remote JSON — new models ship without an app update |
 | Chat Mode | ChatGPT-style conversation with inline result cards, voice I/O, branching, and pinning |
 | Custom Personas | 4 built-in + user-created AI personalities with custom system prompts |
-| Voice Chat | Speak questions, hear AI answers via TTS |
-| Photo Studio | AI generation, editing, background removal, OCR, manga photo stories, PDF export |
+| Voice Chat | Speak questions, hear AI answers via TTS (System on-device, OpenAI TTS, or ElevenLabs) |
+| Photo Studio | AI generation (Apple Image Playground on-device, OpenAI DALL-E 3 / gpt-image-1, fal.ai Flux), editing, background removal, OCR, manga photo stories, PDF export |
+| Morning Brief | Daily push notification with today's events, memories, reminders, trending topics; optional spoken digest |
+| Health Index | Workouts, sleep, activity, resting HR — all on-device, feeds Mood Journal correlation |
+| Location Memories | "Where was I" search via passive CLVisit tracking + photo geotag → place entities |
+| Watch Companion | Apple Watch app + complication showing today's Morning Brief |
+| Per-Modality AI | Pick text, vision, image-generation, and TTS providers independently |
 | Mood Journal | NLTagger sentiment trends from your daily notes & messages |
 | Data Insights | Weekly/monthly reports — top topics, contacts, activity charts |
 | Conversation Branching | Branch chat conversations from any past message — like git branches for your AI |

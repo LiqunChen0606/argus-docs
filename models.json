@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-04-30",
+  "version": 2,
+  "updatedAt": "2026-05-04",
   "providers": {
     "claude": {
       "displayName": "Claude (Anthropic)",
@@ -30,6 +30,51 @@
     "openai_compatible": {
       "displayName": "Custom (OpenAI-compatible)",
       "models": []
+    }
+  },
+  "imageProviders": {
+    "apple_playground": {
+      "displayName": "Apple Image Playground",
+      "models": [
+        {"id": "playground.illustration", "name": "Illustration", "description": "On-device cartoon-style art.", "isDefault": true},
+        {"id": "playground.animation", "name": "Animation", "description": "On-device animated style.", "isDefault": false},
+        {"id": "playground.sketch", "name": "Sketch", "description": "On-device sketch style.", "isDefault": false}
+      ]
+    },
+    "openai_image": {
+      "displayName": "OpenAI Images",
+      "models": [
+        {"id": "dall-e-3", "name": "DALL-E 3", "description": "Text-to-image. High quality.", "isDefault": true},
+        {"id": "gpt-image-1", "name": "gpt-image-1", "description": "Prompt-based editing.", "isDefault": false}
+      ]
+    },
+    "fal_flux": {
+      "displayName": "fal.ai Flux",
+      "models": [
+        {"id": "flux-pro", "name": "Flux Pro", "description": "Highest quality, slowest.", "isDefault": false},
+        {"id": "flux-dev", "name": "Flux Dev", "description": "Balanced quality. Default.", "isDefault": true},
+        {"id": "flux-schnell", "name": "Flux Schnell", "description": "Fastest, lower fidelity.", "isDefault": false}
+      ]
+    }
+  },
+  "ttsProviders": {
+    "system": {
+      "displayName": "System (on-device)",
+      "models": []
+    },
+    "openai_tts": {
+      "displayName": "OpenAI TTS",
+      "models": [
+        {"id": "tts-1", "name": "tts-1", "description": "Fast, low cost. Default.", "isDefault": true},
+        {"id": "tts-1-hd", "name": "tts-1-hd", "description": "Higher quality.", "isDefault": false}
+      ]
+    },
+    "elevenlabs": {
+      "displayName": "ElevenLabs",
+      "models": [
+        {"id": "eleven_turbo_v2", "name": "Turbo v2", "description": "Fast, expressive. Default.", "isDefault": true},
+        {"id": "eleven_multilingual_v2", "name": "Multilingual v2", "description": "29+ languages.", "isDefault": false}
+      ]
     }
   }
 }

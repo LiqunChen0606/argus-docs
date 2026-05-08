@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-05-04",
+  "version": 3,
+  "updatedAt": "2026-05-08",
   "providers": {
     "claude": {
       "displayName": "Claude (Anthropic)",
@@ -44,8 +44,9 @@
     "openai_image": {
       "displayName": "OpenAI Images",
       "models": [
-        {"id": "dall-e-3", "name": "DALL-E 3", "description": "Text-to-image. High quality.", "isDefault": true},
-        {"id": "gpt-image-1", "name": "gpt-image-1", "description": "Prompt-based editing.", "isDefault": false}
+        {"id": "gpt-image-2", "name": "gpt-image-2", "description": "Latest. Best quality, prompt-based generation + editing.", "isDefault": true},
+        {"id": "gpt-image-1", "name": "gpt-image-1", "description": "Previous generation. Prompt-based editing.", "isDefault": false},
+        {"id": "dall-e-3", "name": "DALL-E 3", "description": "Legacy text-to-image.", "isDefault": false}
       ]
     },
     "fal_flux": {

@@ -119,6 +119,26 @@ GPS routes are an **opt-in** feature. They are off by default.
 - Routes are **NEVER transmitted to cloud AI providers** unless you explicitly reference a specific route in a query, in which case only the route's place names (not raw coordinates) may be included as context
 - Disabling the toggle stops new route data from being indexed; existing route data can be cleared by deleting the app
 
+### Sensitive Health Data (v2.1.0)
+
+Argus reads four additional Apple Health data categories. Each is **opt-in** via a separate toggle in **Settings → Sources → Health**, defaulting to off so the iOS permission sheet does not request sensitive data unless you explicitly enable it.
+
+- **Cycle tracking** — menstrual flow, ovulation, intermenstrual bleeding, basal body temperature, cervical mucus quality. Argus computes the current cycle phase (menstrual / follicular / ovulatory / luteal) as a descriptive tag — **it does not predict future periods or fertility windows**.
+- **Symptoms** — 30+ symptom types logged in Apple Health (headache, fatigue, nausea, etc.) with severity (mild / moderate / severe).
+- **Medications** — names, schedules, and 30-day adherence percentages of medications you've entered in Apple Health (iOS 26+ only). Argus is read-only and does not send reminders or write data back to Apple Health.
+- **State of mind** — valence scores (-1 to +1), mood labels, and associations from Apple Health's mindfulness logging (iOS 18+).
+
+All four categories are:
+
+- **Read-only** — Argus does not write any data back to Apple Health
+- **On-device only** — never uploaded to any server we operate, never transmitted to any cloud AI provider unless you have opted into cloud AI use and the data is directly relevant to your specific query
+- **Indexed for search** — appears in your private SQLite database so you can find historical entries by date, phase, symptom name, or mood label
+- **Optionally available to AI** — only sent to a cloud LLM if you've opted into BYOK cloud AI AND ask a question that requires this context. The on-device Apple Foundation Model never sends data anywhere.
+
+**Argus makes no medical claims.** We do not diagnose, treat, predict, or prevent any condition. Period prediction and fertility forecasting are explicitly NOT included. The mood and state-of-mind features are not clinical tools and should not be used to make medical decisions.
+
+You can disable cycle tracking, symptoms, medications, or state of mind individually under **Settings → Sources → Health**. Disabling a toggle stops new data from being indexed; existing data can be cleared by deleting the app.
+
 ## Contacts Data
 
 Argus accesses your Contacts with your permission to build a searchable on-device index. **Your contacts are never uploaded to any server we operate.** Contact data is processed and stored entirely on your iPhone.

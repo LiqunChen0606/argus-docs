@@ -139,6 +139,25 @@ All four categories are:
 
 You can disable cycle tracking, symptoms, medications, or state of mind individually under **Settings → Sources → Health**. Disabling a toggle stops new data from being indexed; existing data can be cleared by deleting the app.
 
+### Memory (v2.3.0)
+
+Argus maintains an on-device memory of durable facts about you — relationships,
+preferences, projects, and standing health context — to make search and chat
+personal without you repeating yourself.
+
+- **On-device only.** Your memory is stored in Argus's private database on your
+  iPhone and is never uploaded to any server we operate.
+- **Fully visible and editable.** Settings → Memory shows every remembered fact,
+  where Argus learned it, and its confidence. You can edit, delete, or pin any
+  fact, clear a category, or forget everything.
+- **You control what's added.** Argus proposes facts from your content (low-
+  confidence ones go to a review queue you approve), and you can add facts
+  explicitly. Nothing is hidden.
+- **Cloud AI.** Your memory is included as context in a query to a cloud AI
+  provider only when you are using a cloud provider and actively chatting — the
+  same opt-in gate as all cloud AI use. The on-device Apple model never sends
+  anything off device.
+
 ## Contacts Data
 
 Argus accesses your Contacts with your permission to build a searchable on-device index. **Your contacts are never uploaded to any server we operate.** Contact data is processed and stored entirely on your iPhone.

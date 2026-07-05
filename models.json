@@ -1,30 +1,29 @@
 {
-  "version": 3,
-  "updatedAt": "2026-05-08",
+  "version": 4,
+  "updatedAt": "2026-06-05",
   "providers": {
     "claude": {
       "displayName": "Claude (Anthropic)",
       "models": [
-        {"id": "claude-opus-4-7", "name": "Opus 4.7", "description": "Most capable. Best for deep reasoning.", "isDefault": false, "contextWindow": 200000},
-        {"id": "claude-sonnet-4-6", "name": "Sonnet 4.6", "description": "Fast & balanced. Default.", "isDefault": true, "contextWindow": 200000},
+        {"id": "claude-opus-4-8", "name": "Opus 4.8", "description": "Most capable. Best for deep reasoning.", "isDefault": false, "contextWindow": 200000},
+        {"id": "claude-sonnet-5", "name": "Sonnet 5", "description": "Fast & balanced. Default.", "isDefault": true, "contextWindow": 200000},
         {"id": "claude-haiku-4-5-20251001", "name": "Haiku 4.5", "description": "Fastest, lowest cost.", "isDefault": false, "contextWindow": 200000}
       ]
     },
     "openai": {
       "displayName": "OpenAI",
       "models": [
-        {"id": "gpt-5", "name": "GPT-5", "description": "Most capable.", "isDefault": false, "contextWindow": 256000},
-        {"id": "gpt-4o", "name": "GPT-4o", "description": "Fast multimodal. Default.", "isDefault": true, "contextWindow": 128000},
-        {"id": "gpt-4o-mini", "name": "GPT-4o mini", "description": "Lightweight, fast.", "isDefault": false, "contextWindow": 128000},
-        {"id": "o4-mini", "name": "o4-mini", "description": "Fast reasoning.", "isDefault": false, "contextWindow": 128000}
+        {"id": "gpt-5.5", "name": "GPT-5.5", "description": "Most capable. Frontier reasoning & coding.", "isDefault": false, "contextWindow": 400000},
+        {"id": "gpt-5.4-mini", "name": "GPT-5.4 mini", "description": "Fast & balanced. Default.", "isDefault": true, "contextWindow": 400000},
+        {"id": "gpt-5.4-nano", "name": "GPT-5.4 nano", "description": "Cheapest, high-volume.", "isDefault": false, "contextWindow": 400000}
       ]
     },
     "gemini": {
       "displayName": "Google Gemini",
       "models": [
-        {"id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro", "description": "Most capable.", "isDefault": false, "contextWindow": 1000000},
-        {"id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash", "description": "Fast & efficient. Default.", "isDefault": true, "contextWindow": 1000000},
-        {"id": "gemini-2.0-flash", "name": "Gemini 2.0 Flash", "description": "Stable, cost-effective.", "isDefault": false, "contextWindow": 1000000}
+        {"id": "gemini-3.1-pro-preview", "name": "Gemini 3.1 Pro", "description": "Most capable.", "isDefault": false, "contextWindow": 1000000},
+        {"id": "gemini-3.5-flash", "name": "Gemini 3.5 Flash", "description": "Fast & efficient. Default.", "isDefault": true, "contextWindow": 1000000},
+        {"id": "gemini-3.1-flash-lite", "name": "Gemini 3.1 Flash-Lite", "description": "Cheapest, high-volume.", "isDefault": false, "contextWindow": 1000000}
       ]
     },
     "openai_compatible": {
@@ -73,8 +72,8 @@
     "elevenlabs": {
       "displayName": "ElevenLabs",
       "models": [
-        {"id": "eleven_turbo_v2", "name": "Turbo v2", "description": "Fast, expressive. Default.", "isDefault": true},
-        {"id": "eleven_multilingual_v2", "name": "Multilingual v2", "description": "29+ languages.", "isDefault": false}
+        {"id": "eleven_v3", "name": "Eleven v3", "description": "Most expressive, 70+ languages, emotion control. Default.", "isDefault": true},
+        {"id": "eleven_turbo_v2", "name": "Turbo v2", "description": "Fastest, low latency.", "isDefault": false}
       ]
     }
   }

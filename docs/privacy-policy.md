@@ -53,7 +53,7 @@ Argus requests access to the following, all optional:
 
 | Permission | Purpose |
 |-----------|---------|
-| Photos | Index your photo library for search (captions, OCR, faces) |
+| Photos | Index your photo library for search (captions, OCR, faces, and on-device semantic image search). Semantic photo search ("find photos of a sunset") uses a bundled on-device Apple vision model (MobileCLIP); image and text embedding and matching run entirely on your device. No photo, image embedding, or search query ever leaves the device. |
 | Contacts | Index contacts on-device for search and smart actions. **Contacts are never uploaded to any server.** If a cloud AI provider is active, a contact name may appear in AI query context only when directly relevant to your search query. |
 | Calendar | Index events for search and Time Capsule memories |
 | Reminders | Index reminders for search |
